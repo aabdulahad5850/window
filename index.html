@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRYSTAL GLASS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="" href="https://i.pinimg.com/736x/26/29/3e/26293e1fe0eadd6eb1c78511bbe0bc40.jpg">
+</head>
+<body>
+
+  <div class="box200" id="glassPreloader">
+    <div class="box201" id="loaderLeftLeaf">
+      <div class="box203">CRYSTAL</div>
+    </div>
+    <div class="box202" id="loaderRightLeaf">
+      <div class="box204">GLASS</div>
+    </div>
+  </div>
+
+  <div class="box1">
+    <div class="box2"></div>
+  </div>
+
+  <header class="box3">
+    <div class="box4">
+      <div class="box5">
+        <i class="fa-solid fa-gem"></i>
+        <span class="box6">CRYSTAL.UZ</span>
+      </div>
+      <nav class="box7">
+        <a href="#home" class="box8">Oyna Portal</a>
+        <a href="#glassEffect" class="box9">Oyna ochilishi</a>
+        <a href="#catalog" class="box10">Katalog</a>
+        <a href="#features" class="box11">Texnologiya</a>
+        <a href="#calculator" class="box12">Kalkulyator</a>
+        <a href="#contact" class="box13">Bog'lanish</a>
+      </nav>
+      <div class="box14">
+        <button class="box15" id="openMainModal">Oyna Buyurtma</button>
+        <div class="header-icon-buttons">
+          <button id="openLikesBtn" class="header-action-btn">
+            <i class="fa-regular fa-heart"></i> <span id="likesCount">0</span>
+          </button>
+          <button id="openCartBtn" class="header-action-btn">
+            <i class="fa-solid fa-bag-shopping"></i> <span id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="box16">
+
+    <section id="home" class="box17 box-reveal">
+      <div class="box18">
+        <div class="box19">
+          <div class="box20">CRYSTAL ARCHITECTURE</div>
+          <h1 class="box21">Haqiqiy Oyna Kabi Ochiluvchi Tizimlar</h1>
+          <p class="box22">Orqa foni qimirlamaydigan, shaffof oynadek ochilib yopiluvchi va uyingizga cheksiz yorug'lik olib kiruvchi mukammal arxitektura asari.</p>
+          <div class="box23">
+            <button class="box24" id="heroOpenGlassBtn">Oynani Ochish</button>
+            <button class="box25" id="heroCatalogBtn">Katalog bilan Tanishish</button>
+          </div>
+          <div class="box26">
+            <div class="box27">
+              <span class="box28" id="counter1">0 yil</span>
+              <span class="box29">Pishiqlik Kafolati</span>
+            </div>
+            <div class="box30">
+              <span class="box31" id="counter2">0.0%</span>
+              <span class="box32">Shaffoflik Darajasi</span>
+            </div>
+            <div class="box33">
+              <span class="box34" id="counter3">0 dB</span>
+              <span class="box35">Tashqi Shovqin</span>
+            </div>
+          </div>
+        </div>
+        <div class="box36">
+          <div class="box37">
+            <div class="box38" id="interactiveWindowMockup">
+              <div class="box39" id="paneLeft">
+                <span class="box40"></span>
+              </div>
+              <div class="box41" id="paneRight">
+                <span class="box42"></span>
+              </div>
+              <div class="box43">
+                <i class="fa-solid fa-arrows-left-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="glassEffect" class="box44 box-reveal">
+      <div class="box45">
+        <span class="box46">KINETIK OYNA MEXANIZMI</span>
+        <h2 class="box47">Oyna Sifatidagi Interaktiv Ochilish</h2>
+        <div class="box48"></div>
+      </div>
+      <div class="box49">
+        <div class="box50">
+          <div class="box51" id="glassLabStage">
+            <div class="box52" id="labLeftLeaf"></div>
+            <div class="box53" id="labRightLeaf"></div>
+            <div class="box54">
+              <span class="box55" id="labStatusSpan">Oyna Yopiq Holatda</span>
+            </div>
+          </div>
+        </div>
+        <div class="box56">
+          <h3 class="box57">Oynani Boshqarish Pulti</h3>
+          
+          <div class="box58">
+            <label class="box59">Oyna Rejimi:</label>
+            <div class="box60">
+              <button class="box61 box-btn-active" data-action="close">Yopish</button>
+              <button class="box62" data-action="open">Ochish</button>
+              <button class="box63" data-action="vent">Ventilyatsiya</button>
+            </div>
+          </div>
+
+          <div class="box64">
+            <label class="box65">Shaffoflik darajasi (%):</label>
+            <input type="range" id="glassOpacityRange" min="20" max="100" value="75" class="box66">
+          </div>
+
+          <div class="box67">
+            <div class="box68">
+              <span>Hozirgi Holat:</span>
+              <span class="box69" id="glassStateVal">Optimal</span>
+            </div>
+            <button class="box70" id="applyGlassActionBtn">Sinxronlash</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog" class="box71 box-reveal">
+      <div class="box72">
+        <span class="box73">PREMIUM KOLLEKSIYA</span>
+        <h2 class="box74">Oyna Modellar Vitrinasi</h2>
+        <div class="box75"></div>
+      </div>
+      <div class="box76">
+
+        <div class="box77">
+          <div class="box78">
+            <img src="https://thumbs.dreamstime.com/b/large-open-living-room-den-sun-windows-two-sides-lots-natural-light-flowing-there-window-seat-one-side-160139160.jpg" alt="" class="box79">
+            <span class="box80">CRYSTAL SLIDE</span>
+          </div>
+          <div class="box81">
+            <h3 class="box82">Panorama Eshik va Oynalar</h3>
+            <p class="box83">Devorni to'liq almashtiruvchi, ikki tomonga oyna kabi sirpanib ochiluvchi ulkan tizimlar.</p>
+            <div class="box84">
+              <span class="box85">$850 / m²</span>
+              <button class="box86" data-category="doors">Tanlash</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="box87">
+          <div class="box88">
+            <img src="https://i.pinimg.com/736x/e3/8f/f1/e38ff1a00f4d3f7268775f1b7ca92144.jpg" alt="" class="box89">
+            <span class="box90">THERMO CRYSTAL</span>
+          </div>
+          <div class="box91">
+            <h3 class="box92">Haqiqiy Akustik Oynalar</h3>
+            <p class="box93">Ichkariga birorta ham tashqi tovushni o'tkazmaydigan ikki va uch qatlamli vakuum oynalar.</p>
+            <div class="box94">
+              <span class="box95">$680 / m²</span>
+              <button class="box96" data-category="windows">Tanlash</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="box97">
+          <div class="box98">
+            <img src="https://i.pinimg.com/1200x/de/43/ef/de43ef0b9d786615c4449dec8b672acd.jpg" alt="" class="box99">
+            <span class="box100">SMART OYNA</span>
+          </div>
+          <div class="box101">
+            <h3 class="box102">Aqlli Smart Oyna Tizimlari</h3>
+            <p class="box103">Tugmani bosish bilan shaffofdan to'q rangli oyna holatiga o'tuvchi avtomatlashtirilgan shishalar.</p>
+            <div class="box104">
+              <span class="box105">$1,100 / m²</span>
+              <button class="box106" data-category="smart">Tanlash</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="features" class="box107 box-reveal">
+      <div class="box108">
+        <span class="box109">TEXNOLOGIK USTUNLIK</span>
+        <h2 class="box110">Nima Uchun Aynan Crystal Glass?</h2>
+        <div class="box111"></div>
+      </div>
+      <div class="box112">
+        <div class="box113">
+          <div class="box114">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="box115">Zarbalarga Bardosh</h3>
+          <p class="box116">Triplex qatlamli xavfsiz shisha har qanday mexanik ta'sirga chidamli.</p>
+        </div>
+        <div class="box117">
+          <div class="box118">
+            <i class="fa-solid fa-temperature-arrow-down"></i>
+          </div>
+          <h3 class="box119">Issiqlik Saqlash</h3>
+          <p class="box120">Qishda issiqlikni tashqariga chiqarmaydi, yozda esa xonani salqin saqlaydi.</p>
+        </div>
+        <div class="box121">
+          <div class="box122">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <h3 class="box123">O'zini O'zi Yuvish</h3>
+          <p class="box124">Gidrofob nanotexnologiya yomg'ir suvi orqali oyna yuzasini tozalab turadi.</p>
+        </div>
+        <div class="box125">
+          <div class="box126">
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+          <h3 class="box127">Avtomatik Yurish</h3>
+          <p class="box128">Pult yoki smartfon ilovasi orqali masofadan ochib yopish imkoniyati.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="box129 box-reveal">
+      <div class="box130">
+        <div class="box131">
+          <h2 class="box132">Oyna Narxini Hisoblash</h2>
+          <p class="box133">Oynangizning eni va bo'yi o'lchamlarini kiriting, tizim darhol umumiy qiymatni hisoblab beradi.</p>
+          
+          <div class="box134">
+            <div class="box135">
+              <label class="box136">Eni (metr):</label>
+              <input type="number" id="calcW" value="2.0" step="0.1" min="0.5" max="10" class="box137">
+            </div>
+            <div class="box138">
+              <label class="box139">Bo'yi (metr):</label>
+              <input type="number" id="calcH" value="2.5" step="0.1" min="0.5" max="5" class="box140">
+            </div>
+          </div>
+
+          <div class="box141">
+            <label class="box142">Oyna Turi:</label>
+            <select id="calcType" class="box143">
+              <option value="750">Panorama Glass Wall</option>
+              <option value="680" selected>Acoustic Double Pane</option>
+              <option value="1100">Electrochromic Glass Door</option>
+            </select>
+          </div>
+
+          <button class="box144" id="calcRunBtn">Hisob-Kitobni Boshlash</button>
+        </div>
+
+        <div class="box145">
+          <div class="box146">
+            <span class="box147">Umumiy Maydon:</span>
+            <span class="box148" id="calcAreaOut">5.00 m²</span>
+          </div>
+          <div class="box149">
+            <span class="box150">Taxminiy Narx:</span>
+            <span class="box151" id="calcPriceOut">$3,400</span>
+          </div>
+          <p class="box152">*O'lchov tasdiqlangandan so'ng narx o'zgarmasligiga kafolat beriladi.</p>
+          <button class="box153" id="calcBridgeBtn">Ushbu O'lchamda Buyurtma</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="box154 box-reveal">
+      <div class="box155">
+        <div class="box156">
+          <span class="box157">MUTAXASSIS BILAN BOG'LANISH</span>
+          <h2 class="box158">Oyna Loyihangizni Muhokama Qilamiz</h2>
+          <p class="box159">Ma'lumotlaringizni qoldiring, muhandislarimiz sizga qo'ng'iroq qilib bepul o'lchov olishadi.</p>
+          <div class="box160">
+            <div class="box161">
+              <i class="fa-solid fa-phone-volume"></i>
+              <span>+998 (33) 275-58-50</span>
+            </div>
+            <div class="box162">
+              <i class="fa-solid fa-envelope-open-text"></i>
+              <span>aakhathanov@gmail.com</span>
+            </div>
+            <div class="box163">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <span>Namangan 17a-uy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box164">
+          <form class="box165" id="contactForm">
+            <div class="box166">
+              <input type="text" placeholder="Ismingiz" required class="box167">
+            </div>
+            <div class="box168">
+              <input type="tel" placeholder="Telefon Raqamingiz" required class="box169">
+            </div>
+            <div class="box170">
+              <textarea placeholder="Loyiha haqida qisqacha izoh..." rows="4" class="box171"></textarea>
+            </div>
+            <button type="submit" class="box172" id="contactSubmitBtn">Ariza Yuborish</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-custom">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i class="fa-solid fa-gem"></i>
+          <span>CRYSTAL GLASS</span>
+        </div>
+        <p class="footer-desc">Bino va uylar uchun eng so'nggi texnologiyalar asosida yaratilgan shaffof oyna va panorama tizimlari.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigatsiya</h4>
+        <ul>
+          <li><a href="#home">Oyna Portal</a></li>
+          <li><a href="#glassEffect">Kinetik Ochilish</a></li>
+          <li><a href="#catalog">Katalog</a></li>
+          <li><a href="#calculator">Kalkulyator</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Mahsulotlar</h4>
+        <ul>
+          <li><a href="#catalog">Panorama Eshiklar</a></li>
+          <li><a href="#catalog">Akustik Oynalar</a></li>
+          <li><a href="#catalog">Smart Shishalar</a></li>
+          <li><a href="#catalog">Vakuum Tizimlar</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials-col">
+        <h4>Ijtimoiy Tarmoqlar</h4>
+        <div class="footer-social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2026 akhathanov</p>
+    </div>
+  </footer>
+
+  <div class="box187" id="globalModal">
+    <div class="box188">
+      <button class="box189" id="closeModalBtn">x</button>
+      <h3 class="box190">Tezkor Oyna Buyurtmasi</h3>
+      <p class="box191">Ma'lumotlaringizni yozib qoldiring, mutaxassis tez orada aloqaga chiqadi.</p>
+      <form class="box192" id="modalForm">
+        <div class="box193">
+          <input type="text" placeholder="Ismingiz" required class="box194">
+        </div>
+        <div class="box195">
+          <input type="tel" placeholder="Telefon raqam" required class="box196">
+        </div>
+        <div class="box197">
+          <select class="box198">
+            <option value="slide">Panorama Glass Wall</option>
+            <option value="acoustic">Acoustic Double Pane</option>
+            <option value="smart">Electrochromic Glass Door</option>
+          </select>
+        </div>
+        <button type="submit" class="box199" id="modalSubmitBtn">Buyurtmani Tasdiqlash</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="box187" id="productModal">
+    <div class="box188 modal-custom-body">
+      <button class="box189" id="closeProductModalBtn">x</button>
+      <h3 class="box190" id="productModalTitle">Oyna Turlari Kolleksiyasi</h3>
+      <p class="box191">Tanlangan kategoriya bo'yicha mos oynani tanlang.</p>
+      <div id="extendedProductGrid" class="extended-grid"></div>
+    </div>
+  </div>
+
+  <div class="side-panel-overlay" id="cartOverlay"></div>
+  <div class="side-drawer" id="cartDrawer">
+    <div class="side-drawer-header">
+      <h3>Sizning Savatchangiz</h3>
+      <button class="side-close-btn" id="closeCartDrawerBtn">x</button>
+    </div>
+    <div class="side-drawer-body" id="cartItemsList"></div>
+    <div class="side-drawer-footer">
+      <div class="cart-total-box">
+        <span>Jami summa:</span>
+        <span id="cartTotalPrice">$0</span>
+      </div>
+      <button class="box199" id="checkoutBtn">Buyurtmani Rasmiylashtirish</button>
+    </div>
+  </div>
+
+  <div class="side-panel-overlay" id="likesOverlay"></div>
+  <div class="side-drawer" id="likesDrawer">
+    <div class="side-drawer-header">
+      <h3>Yoqtirilgan Oynalar</h3>
+      <button class="side-close-btn" id="closeLikesDrawerBtn">x</button>
+    </div>
+    <div class="side-drawer-body" id="likesItemsList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
